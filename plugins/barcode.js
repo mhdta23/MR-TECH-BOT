@@ -1,7 +1,3 @@
-/*coded by ameer-kallumthodi
-https://youtube.com/channel/UCpGa88rhUFYj-6-LBqBbWKw
-*/
-
 const Asena = require('../events');
 const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys');
 const fs = require('fs');
@@ -17,7 +13,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/barcode_maker?text=${match[1]}`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: 'Made by PIKACHU' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: 'Made by MRTECH-BOT' })
 
     }));
 }
@@ -31,7 +27,7 @@ else if (Config.WORKTYPE == 'public') {
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/barcode_maker?text=${match[1]}`, { responseType: 'arraybuffer' })
 
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: 'Made by PIKACHU' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: 'Made by MRTECH-BOT' })
 
     }));
     
