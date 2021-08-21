@@ -93,7 +93,7 @@ $ node qr.js
       
 ```js
 SETUP
-$ git clone https://github.com/ameer-kallumthodi/pikachu
+$ git clone https://github.com/mhdta23/MR-TECH-BOT
 $ cd pikachu
 $ chmod +x *
 $ npm i
