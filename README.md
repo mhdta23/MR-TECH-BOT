@@ -2,14 +2,14 @@
 <div align="center">
   <img border-radius: 15px src="Pikachu-407x400.png" width="200" height="200"/>
   <p align="center">
-<a href="#"><img title="Pikachu" src="https://img.shields.io/badge/Pikachu-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="MRTECH-BOT" src="https://img.shields.io/badge/Pikachu-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
-<a href="https://github.com/ameer-kallumthodi"><img title="Author" src="https://img.shields.io/badge/Author-MHD T. A-kallumthodi/pikachu?color=f7df1e&style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/mhdta23"><img title="Author" src="https://img.shields.io/badge/Author-MHD T. A-kallumthodi/pikachu?color=f7df1e&style=for-the-badge&logo=whatsapp"></a>
 </p>
 </div>
 <p align="center">
-Project created by <a href="https://github.com/ameer-kallumthodi">ameer-kallumthodi</a> to make it public
+Project created by <a href="https://github.com/mhdta23">MUHAMMED T.A</a> to make it public
     <br>
        | © |
         Reserved |
@@ -22,7 +22,7 @@ Project created by <a href="https://github.com/ameer-kallumthodi">ameer-kallumth
   <a href="https://github.com/mhdta23/MR-TECH-BOT">
     <img src="https://img.shields.io/github/repo-size/ameer-kallumthodi/pikachu?color=green&label=Repo%20total%20size&style=plastic">
 <p align="center">
-<a href="https://github.com/ameer-kallumthodi/followers"><img title="Followers" src="https://img.shields.io/github/followers/ameer-kallumthodi?color=f7df1e&style=flat-square"></a>
+<a href="https://github.com/mhdta23/followers"><img title="Followers" src="https://img.shields.io/github/followers/ameer-kallumthodi?color=f7df1e&style=flat-square"></a>
 <a href="https://github.com/ameer-kallumthodi/pikachu/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/ameer-kallumthodi/pikachu?color=f7df1e&style=flat-square"></a>
 <a href="https://github.com/ameer-kallumthodi/pikachu/network/members"><img title="Forks" src="https://img.shields.io/github/forks/ameer-kallumthodi/pikachu?color=f7df1e&style=flat-square"></a>
 <a href="https://github.com/ameer-kallumthodi/pikachu/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/ameer-kallumthodi/pikachu?label=Watchers&color=f7df1e&style=flat-square"></a>
