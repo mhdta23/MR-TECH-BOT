@@ -11,7 +11,7 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
     
     
    
-  r_text[0] = "https://www.pixelstalk.net/wp-content/uploads/2016/03/MRTECH-BOT-wallpaper-HD-dowload.jpg";
+  r_text[0] = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9UeuCBFwesPWwdcV2Sv_HoZXrNiCZGy-aNg&usqp=CAU";
     
     
     var i = Math.floor(1*Math.random())
