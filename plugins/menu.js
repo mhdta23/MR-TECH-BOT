@@ -10,7 +10,7 @@ Asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (messag
     var r_text = new Array ();
     
     
-    r_text[0] = "https://www.pixelstalk.net/wp-content/uploads/2016/03/MRTECH-BOT-wallpaper-HD-dowload.jpg";
+    r_text[0] = "https://pin.it/1088kyV";
     
     
     var i = Math.floor(1*Math.random())
