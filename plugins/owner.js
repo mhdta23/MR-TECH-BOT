@@ -39,7 +39,7 @@ else if (Config.WORKTYPE == 'public') {
             await message.client.sendMessage(message.jid,'MRTECH-BOT Bot created by *MHD T.A*' , MessageType.text);
         }
         else {
-            await message.client.sendMessage(message.jid,ᴍᴇɴᴜ
+            await message.client.sendMessage(message.jid,Config.PLK + 'ᴍᴇɴᴜ
 
 ┌─────❲ *MRTECH-BOT ❳* 
 ┊
