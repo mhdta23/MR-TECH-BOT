@@ -39,7 +39,23 @@ else if (Config.WORKTYPE == 'public') {
             await message.client.sendMessage(message.jid,'MRTECH-BOT Bot created by *MHD T.A*' , MessageType.text);
         }
         else {
-            await message.client.sendMessage(message.jid,Config.PLK + '\n\n--------------------', MessageType.text);
+            await message.client.sendMessage(message.jid,ᴍᴇɴᴜ
+
+┌─────❲ *MRTECH-BOT ❳* 
+┊
+└─────────────────✪---------♕︎
+
+        ╔╗╔╗╔══╗╔══╗
+        ║╚╝║║╔╗║╚║║╝
+        ║╔╗║║╠╣║╔║║╗
+        ╚╝╚╝╚╝╚╝╚══╝
+
+┌─────❲ *ᴀʙᴏᴜᴛ* ❳
+┊☞ ᴏᴡɴᴇʀ : ᴍʜᴅ.ᴛᴀ 
+┊☞ wa.me/919288405103
+┊☞ʙᴏᴛ ɴᴀᴍᴇ : ᴍʀ-ᴛᴇᴄʜ_ʙᴏᴛ
+┊☞ ᴠᴇʀꜱɪᴏɴ : ᴠ2
+└─────────────────✪----------♕︎', MessageType.text);
         }
     }));
 }
