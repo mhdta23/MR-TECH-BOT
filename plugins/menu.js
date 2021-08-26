@@ -17,132 +17,111 @@ Asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (messag
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `┌─────❲ *MRTECH-BOT𖤍❳* 
+┊
+└─────────────────✪---------𖤍
+
+        ╔╗╔╗╔══╗╔══╗
+        ║╚╝║║╔╗║╚║║╝
+        ║╔╗║║╠╣║╔║║╗
+        ╚╝╚╝╚╝╚╝╚══╝
+
+┌─────❲ 📲*ᴅᴏᴡɴʟᴏᴀᴅ_ᴍᴇɴᴜ* ❳
+┊𖣠.ᴠɪᴅᴇᴏ <ʟɪɴᴋ> [ᴠɪᴅᴇᴏ ᴅɪᴡɴʟᴏᴀᴅ ᴄʜᴇʏʏᴀᴀɴ]
+┊𖣠.sᴏɴɢ <ɴᴀᴍᴇ> [sᴏɴɢ ᴋɪᴛᴛᴀɴ]
+┊𖣠.ᴠɪɴsᴛᴀ <Lɪɴᴋ> [ɪɴsᴛᴀɢʀᴀᴍ ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴄʜᴇʏʏᴀᴀɴ]
+┊𖣠.ɪᴍɢ <ɴᴀᴍᴇ> [ɢᴏᴏɢɪʟɪʟ ɪᴍᴀɢᴇ sᴇᴀʀᴄʜ ᴄʜᴇʏʏᴀɴ]
+┊𖣠.ᴀᴘᴋ ᴍᴏᴅᴇ
+┊𖣠.ᴡᴀʟʟᴘᴀᴘᴇʀ [ᴡᴀʟʟᴘᴀᴘᴇʀ ᴋɪᴛᴛᴀɴ]
+┊𖣠.ɪɴsᴛᴀ <ʟɪɴᴋ>
+┊𖣠.ᴘɪɴᴛᴀ <ʟɪɴᴋ>
+└─────────────────✪----------𖤍
+
+┌─────❲ 😅*ғᴜɴ ᴍᴇɴᴜ* ❳
+┊𖣠.ᴊᴏᴋᴇ [ᴛʜᴀᴍᴀsʜᴀ]
+┊𖣠.ʙᴏᴛ [ʙᴏᴛɪɴᴏᴅ sᴀᴍsᴀᴀʀɪᴋᴋᴀɴ]
+└─────────────────✪----------𖤍
+
+┌─────❲ 🪀*ɢʀᴏᴜᴘ ᴍᴇɴᴜ* ❳
+┊𖣠.ᴀᴅᴅ <ᴜsᴇʀ>
+┊𖣠.ʙᴀɴ <Usᴇʀ>[ʀᴇᴍᴏᴠᴇ ᴄʜᴇʏʏᴀɴ]
+┊𖣠.ᴡᴇʟᴄᴏᴍᴇ <ᴏɴ/ᴏғғ>
+┊𖣠.ɢᴏᴏᴅʙʏᴇ <ᴏɴ/ᴏғғ>
+┊𖣠.ᴀɴᴛɪʟɪɴᴋ <ᴏɴ/ᴏғғ>
+┊𖣠.ᴘʀᴏᴍᴏᴛᴇ <@ᴜsᴇʀ>[ᴏʀᴀʟᴇ ᴀᴅᴍɪɴ ᴀᴋᴋᴀɴ]
+┊𖣠.ᴅᴇᴍᴏᴛᴇ  <@ᴜsᴇʀ>[ᴀᴅᴍɪɴᴇ ᴅɪssᴍɪss ᴄʜᴇʏʏᴀᴀɴ]
+┊𖣠.ᴍᴜᴛᴇ <ᴀᴅᴍɪɴs ᴏɴʟʏ>
+┊𖣠.ᴜɴᴍᴜᴛᴇ <ᴀʟʟ_ᴘᴀʀᴛɪᴄɪᴘᴇɴᴛs>
+└─────────────────✪----------𖤍
+
+┌─────❲ 📀*ɪɴғᴏ ᴍᴇɴᴜ* ❳
+┊𖣠.ʙʀᴀɪɴʟʏ <ǫᴜᴇsᴛɪᴏɴ>
+┊𖣠.ᴡɪᴋɪ <ᴡɪᴋɪᴘᴇᴅɪᴀʏɪʟ sᴇᴀʀᴄʜ ᴄʜᴇʏʏᴀɴ>
+┊𖣠.ɢɪᴛʜᴜʙ
+┊𖣠.ᴏᴡɴᴇʀ <ʙᴏᴛ ᴏᴡɴᴇʀ>
+┊𖣠.ɢɪᴛ <ʙᴏᴛ-ᴄᴏᴅᴇ>
+┊𖣠.ᴍᴏᴠɪᴇ <ᴍᴏᴠɪᴇ ɴᴀᴍᴇ> [ᴍᴏᴠɪᴇ ᴅᴇᴛᴀɪʟᴇs]
+┊𖣠.sʜᴏᴡ <ɴᴀᴍᴇ> [ɢᴇᴛ ɪɴғᴏ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ᴛᴠ sᴇʀɪᴇs ᴀɴᴅ sʜᴏᴡs]
+┊𖣠.ɴᴇᴡs <ᴄᴀᴛᴇɢᴏʀʏ> [ʜᴏᴛ ɴᴇᴡs ᴋɪᴛᴛᴀɴ]
+┊𖣠.ǫᴜᴏᴛᴇ [ʀᴀɴᴅᴏᴍᴇ ǫᴜᴏᴛᴇ ᴋɪᴛᴛᴀɴ]
+┊𖣠.sʏsᴅ [sʏsᴛᴇᴍ ᴅᴇᴛᴀɪʟs ᴋɪᴛᴛᴀɴ]
+┊𖣠.ᴡᴇᴀᴛʜᴇʀ <ᴄɪᴛʏ> [സ്ഥലത്തെ കാലാവസ്ഥ അറിയാൻ ]
+┊𖣠.sᴡᴇᴀᴛʜᴇʀ [sᴘᴀᴄᴇ ᴡᴇᴀᴛʜᴇʀ ᴋɪᴛᴛᴀɴ]
+┊𖣠.ʟʏʀɪᴄ <sᴏɴɢ ɴᴀᴍᴇ> [ᴘᴀᴛᴛɪɴᴛᴇ ʟɪʀɪᴄs ᴋɪᴛᴛᴀᴀɴ]
+┊𖣠.ᴄᴏᴠɪᴅ [7ᴄᴏᴜɴᴛʀʏ sɪʟᴇ ᴄᴏᴠɪᴅ ᴅᴇᴛᴀɪʟs]
+┊𖣠.ɪᴘ <ɪᴘ ᴀᴅᴅʀᴇss> [ɪᴘ ᴀᴅᴅʀᴇss ᴅᴇᴛᴀɪʟs]
+┊𖣠.ᴀʟɪᴠᴇ [ʙᴏᴛ ᴡᴏʀᴋɪɴɢ ᴀɴᴏ ᴇɴɴ ᴀʀɪʏᴀɴ]
+┊𖣠.ᴡʜᴏɪs
+┊𖣠.ʏᴛ <ᴛᴇxᴛ> [ʏᴏᴜᴛᴜʙɪʟ sᴇᴀʀᴄʜ ᴄʜᴇʏʏᴀᴀɴ]
+└─────────────────✪----------𖤍
+
+┌─────❲ 🛠*ᴛᴏᴏʟs ᴍᴇɴᴜ* ❳
+┊𖣠.xᴍᴇᴅɪᴀ [ᴛᴇxᴛ ᴛᴏᴏʟs]
+┊𖣠.sᴛɪᴄᴋᴇʀ <ʀᴇᴘʟᴀʏ ᴛᴏ ᴀ ᴘʜᴏᴛᴏ/ᴠɪᴅᴇᴏ/ɢɪғ>
+┊𖣠.ᴍᴘ3 <Rᴇᴘʟᴀʏ ᴛᴏ ᴠɪᴅᴇᴏ> [Vɪᴅᴇᴏ ᴍᴘ3 ᴀᴀᴋᴋᴀᴀɴ]
+┊𖣠.ᴀᴛᴛᴘ <ᴛxᴛ>[ ᴛᴇxᴛ  ʀᴀɪɴʙᴏᴡ ᴄᴏʟᴏᴜʀ sᴛɪᴄᴋᴇʀ ᴀᴋᴋᴀᴀɴ]
+┊𖣠.ǫʀ <ᴛᴇxᴛ> [ᴛᴇxᴛ ǫʀ ᴄᴏᴅᴇ ᴀᴋᴋᴀᴀɴ]
+┊𖣠.ʀᴇᴍᴏᴠᴇʙɢ <ʀᴇᴘʟᴀʏ ᴛᴏ ᴀ ɪᴍᴀɢᴇ> [ʙᴀᴄᴋɢʀᴏᴜɴᴅ ʀᴇᴍᴏᴠᴇ ᴄʜᴇʏʏᴀᴀɴ]
+┊𖣠.ᴛᴛs <ᴛᴇxᴛ> [ᴛᴇxᴛ ᴠᴏɪᴄᴇ ᴀᴀᴋᴋᴀᴀɴ]
+┊𖣠.ᴄᴀʟᴄ [ᴄᴀʟᴄᴜʟᴀᴛᴏʀ]
+┊𖣠.sʜᴏʀᴛ <ʟɪɴᴋ> [ʟɪɴᴋ sʜᴏʀᴛ ᴀᴀᴋᴋᴀᴀɴ]
+┊𖣠.ss <ʟɪɴᴋ> [ᴛʜᴀɴɴᴀ ʟɪɪɴᴛᴇɴᴋ sᴄʀᴇᴇɴsʜᴏᴛ ᴋɪᴛᴛᴀɴ]
+┊𖣠.ᴅɪᴄᴛ <ᴛᴇxᴛ> [ᴅɪᴄᴛᴏɪɴᴏʀʏ]
+┊𖣠.ᴏᴄʀ <ʀᴇᴘʟᴀʏ ᴛᴏ ɪᴍᴀɢᴇ> [ᴘʜᴏᴛᴏ ʏɪʟᴇ ᴛᴇxᴛ ᴋɪᴛᴛᴀɴ]
+┊𖣠.ᴛʀᴛ
+┊𖣠.ʟᴏɢᴏ [ʟᴏɢᴏ ᴛᴏᴏʟs]
+┊𖣠.ᴘʜᴏᴛᴏ <ʀᴇᴘʟᴀʏ ᴛᴏ ᴀ sᴛɪᴄᴋᴇʀ> [sᴛɪᴄᴋᴇʀ ᴘʜᴏᴛᴏ ᴀᴀᴋᴋᴀɴ]
+┊𖣠.ғғɪʀᴇ <ᴛᴇxᴛ> [ғʀᴇᴇ ғɪʀᴇ ʟᴏɢᴏ]
+└─────────────────✪----------𖤍
+
+┌─────❲ 🤖*AI* ❳
+┊𖣠.ʙᴏᴛ <ᴛxᴛ> [ʙᴏᴛɪɴᴏᴅ sᴀᴍsᴀᴀʀɪᴋᴋᴀᴀɴ]
+┊𖣠.ᴅᴇᴇᴘᴀɪ
+└─────────────────✪----------𖤍
 
 
-      
-         🔰*MRTECH-BOT*🔰
-        
-        
+┌─────❲ 🕋*ɪsʟᴀᴍ* ❳
+┊𖣠.ᴘʀᴀʏᴇʀ <ᴄɪᴛʏ> ᴀᴅᴀɴ ᴛɪᴍᴇ ᴀʀɪʏᴀᴀɴ!
+┊⚠︎.ᴛɪᴍᴇ ᴛʜᴇᴛᴛ ᴀᴀᴋᴀᴀɴ sᴀᴀᴅʜʏᴀᴅʜᴀ ᴜɴᴅ! 
+└─────────────────✪----------𖤍
 
-■□■□■□■□■□■□■□■□■□■□
-♕ *𝙈𝙚𝙙𝙞𝙖 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* ♕
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -song <text>
-🍙𝙐𝙨𝙚➜ Downloads song for you.
-⚠️.song  baby love
+┌─────❲ 🧞*ᴏᴡɴᴇʀ ᴍᴇɴᴜ* ❳
+┊𖣠.sʜᴜᴛᴅᴏᴡɴ [ʙᴏᴛ ᴏғғ ᴀᴋᴀᴀɴ]
+┊𖣠.ᴜᴘᴅᴀᴛᴇ [Uᴘᴅᴀᴛᴇ ᴜɴᴅᴏᴏɴɴ ᴄʜᴇᴄᴋ ᴄʜᴇʏʏᴀᴀɴ]
+┊𖣠.ᴜᴘᴀᴅᴀᴛᴇ ɴᴏᴡ [ʙᴏᴛ ᴜᴘᴅᴀᴛᴇ ᴄʜᴇʏʏᴀᴀɴ]
+└─────────────────✪----------𖤍
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -video <yt link>
-🍙𝙐𝙨𝙚➜ Downloads video from YouTube link.
+┌─────────────────
+┊ʙᴏᴛ ᴄᴏᴅᴇ :https://mrtech.cf
+┊𐂡𝚖𝚑𝚍.𝚝𝚊
+┊𐂡𝚖𝚛 𝚖𝚘𝚍𝚣
+┊𐂡 wa.me/919288405103
+└─────────────────✪----------𖤍
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -insta <link>
-🍙𝙐𝙨𝙚➜   Downloads content from instagram.
 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -yt<text>
-🍙𝙐𝙨𝙚➜   Gives you YT links.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -show <show name>
-🍙𝙐𝙨𝙚➜   Get info related to tv series and shows.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -gif 
-🍙𝙐𝙨𝙚➜ Converts video to gif.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -tomp3 
-🍙𝙐𝙨𝙚➜ Converts video into audio.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -say <text>
-🍙𝙐𝙨𝙚➜ Converts text into voice.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -img <text>
-🍙𝙐𝙨𝙚➜ It sends image from google.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -trt <language code>
-🍙𝙐𝙨𝙚➜ Translate the text you tag.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -wiki <text>
-🍙𝙐𝙨𝙚➜ It sends Wikipedia result.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -lyric <text>
-🍙𝙐𝙨𝙚➜ Finds the lyrics of the song.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -covid <country code>
-🍙𝙐𝙨𝙚➜ Send the covid stats of your country.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -weather <city>
-🍙𝙐𝙨𝙚➜ Tells you about the weather of your place.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -removebg 
-🍙𝙐𝙨𝙚➜ Removes the background of tge image.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -ocr
-🍙𝙐𝙨𝙚➜ Finds the text written on the image.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -wallpaper
-🍙𝙐𝙨𝙚➜ It sends you random wallpaper.
-
-■□■□■□■□■□MRTECH-BOT■□■□■□■□■□
-♟ *𝙁𝙪𝙣 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* ♟
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -joke 
-🍙𝙐𝙨𝙚➜ It sends a random joke.
- 
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -meme <text>
-🍙𝙐𝙨𝙚➜ Cations the image into a meme.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -quote 
-🍙𝙐𝙨𝙚➜ It sends a random quote.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -ss <website link>
-🍙𝙐𝙨𝙚➜ It sends the screenshot of the website.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -changesay <text>
-🍙𝙐𝙨𝙚➜ Converts text into changesay meme image.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -trumpsay
-🍙𝙐𝙨𝙚➜ Convert text into Trump's tweet.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -compliment 
-🍙𝙐𝙨𝙚➜ Gives you a compliment.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -bitly <link>
-🍙𝙐𝙨𝙚➜   Shorten your link.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -dict 
-🍙𝙐𝙨𝙚➜   Dictionary [-dict en;anime]
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -zodiac <leo> 
-🍙𝙐𝙨𝙚➜   Tells you about your horoscope.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -qr <text>
-🍙𝙐𝙨𝙚➜   Converts text into qr code.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -movie 
-🍙𝙐𝙨𝙚➜  Gives you info about movie.
-⚠️movie master
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -anime <text>
-🍙𝙐𝙨𝙚➜  Gives you info about anime.
-⚠️anime MRTECH-BOT
-■□■□■□■□■MRTECH-BOT□■□■□■□■□■□
-♝ *𝙎𝙩𝙞𝙘𝙠𝙚𝙧 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* ♝
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -sticker 
-🍙𝙐𝙨𝙚➜ Converts img/gif into a sticker.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -photo 
-🍙𝙐𝙨𝙚➜ Converts sticker into image.
-
-➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -attp <text>
-🍙𝙐𝙨𝙚➜ Converts text into glowing sticker.
-⚠️ex  attp MRTECH-BOT
-
-______________________
-•MHD T.A
-•MR-MODS
-$Code :https://mrtech.cf
-
-▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣
-
+   ❚❙❘❙ ❙❙❘❘❙ ❘❚ ❙❙❘❙❘ ❘❙❘ ❘ ❙❙ 
+    ©919288405103
 `}) 
 
 }));
