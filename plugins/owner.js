@@ -1,45 +1,171 @@
-const Asena = require('../events');
+const asena = require('../events');
+
 const {MessageType} = require('@adiwajshing/baileys');
-const {spawnSync} = require('child_process');
+
+const OWNER = "it sends details of owner"
+
+const GIT = "it sends links"
+
 const Config = require('../config');
-const chalk = require('chalk');
-
-const Language = require('../language');
-const Lang = Language.getString('system_stats');
-
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'owner', fromMe: true, desc: 'shows the detail of bot owner'}, (async (message, match) => {
+        asena.addCommand({pattern: 'owner', fromMe: true, deleteCommand: true, desc: OWNER,}, (async (message, match) => {
 
-        if (message.jid === '15369524516-1612300121@g.us') {
+    var r_text = new Array ();
 
-            return;
-        }
+    
 
-        if (Config.PLK == 'default') {
-            await message.client.sendMessage(message.jid,'Pikachu Bot created by *Ameer Suhail*' , MessageType.text);
-        }
-        else {
-            await message.client.sendMessage(message.jid,Config.PLK + '\n\n---------------------', MessageType.text);
-        }
+    r_text[1] = "ʜɪ......
+    
+    ┌─────❲ *MRTECH-BOT𖤍❳* 
+    ┊
+    └─────────────────✪---------𖤍
+       ───────╔╗───────╔╗─
+       ╔══╗╔╦╗║╚╗╔═╗╔═╗║╚╗
+       ║║║║║╔╝║╔╣║╩╣║═╣║║║
+       ╚╩╩╝╚╝─╚═╝╚═╝╚═╝╚╩╝
+       ───────────────────
+    
+    ┌─────❲ *ᴏᴡɴᴇʀ* ❳
+    ┊☞ ᴏᴡɴᴇʀ : ᴍʜᴅ.ᴛᴀ ™
+    ┊☞ wa.me/919288405103
+    ┊☞ʙᴏᴛ ɴᴀᴍᴇ : ᴍʀ-ᴛᴇᴄʜ_ʙᴏᴛ®
+    ┊☞︎︎︎sᴛᴀᴛᴜs:ᴡᴏʀᴋɪɴɢ ᴀs ᴘᴜʙʟɪᴄ
+    ┊☞ ᴠᴇʀꜱɪᴏɴ : ᴠ2
+    └──────────────----------𖤍
+    
+    
+        ║▌│█║▌│ █║▌│█│║
+          ©919288405103™"
+
+    
+
+    await message.client.sendMessage(
+
+        message.jid,(r_text[1]), MessageType.text);
+
     }));
-}
 
-else if (Config.WORKTYPE == 'public') {
+        asena.addCommand({pattern: 'git', fromMe: true, deleteCommand: true, desc: GIT,}, (async (message, match) => {
 
-    Asena.addCommand({pattern: 'owner', fromMe: false, desc: 'shows the detail of bot owner'}, (async (message, match) => {
+        var r_text = new Array ();
 
-        if (message.jid === '54218542512-1612300121@g.us') {
+    
 
-            return;
-        }
+        r_text[1] = "ʜɪ......
+        
+        ┌─────❲ *MRTECH-BOT𖤍❳* 
+        ┊
+        └─────────────────✪---------𖤍
+           ───────╔╗───────╔╗─
+           ╔══╗╔╦╗║╚╗╔═╗╔═╗║╚╗
+           ║║║║║╔╝║╔╣║╩╣║═╣║║║
+           ╚╩╩╝╚╝─╚═╝╚═╝╚═╝╚╩╝
+           ───────────────────
+        
+        ┌─────❲ *ᴏᴡɴᴇʀ* ❳
+        ┊☞ ᴏᴡɴᴇʀ : ᴍʜᴅ.ᴛᴀ ™
+        ┊☞ wa.me/919288405103
+        ┊☞ʙᴏᴛ ɴᴀᴍᴇ : ᴍʀ-ᴛᴇᴄʜ_ʙᴏᴛ®
+        ┊☞︎︎︎sᴛᴀᴛᴜs:ᴡᴏʀᴋɪɴɢ ᴀs ᴘᴜʙʟɪᴄ
+        ┊☞ ᴠᴇʀꜱɪᴏɴ : ᴠ2
+        └──────────────----------𖤍
+        
+        
+            ║▌│█║▌│ █║▌│█│║
+              ©919288405103™"
 
-        if (Config.PLK == 'default') {
-            await message.client.sendMessage(message.jid,'Pikachu Bot created by *Ameer Suhail*' , MessageType.text);
-        }
-        else {
-            await message.client.sendMessage(message.jid,Config.PLK + '\n\n--------------------', MessageType.text);
-        }
+    
+
+        await message.client.sendMessage(
+
+            message.jid,(r_text[1]), MessageType.text);
+
+    
+
+        }));    
+
+    }
+
+    
+
+    if (Config.WORKTYPE == 'public') {
+
+        asena.addCommand({pattern: 'owner', fromMe: false, deleteCommand: true, desc: OWNER,}, (async (message, match) => {
+
+    var r_text = new Array ();
+
+    
+
+    r_text[1] = "ʜɪ......
+    
+    ┌─────❲ *MRTECH-BOT𖤍❳* 
+    ┊
+    └─────────────────✪---------𖤍
+       ───────╔╗───────╔╗─
+       ╔══╗╔╦╗║╚╗╔═╗╔═╗║╚╗
+       ║║║║║╔╝║╔╣║╩╣║═╣║║║
+       ╚╩╩╝╚╝─╚═╝╚═╝╚═╝╚╩╝
+       ───────────────────
+    
+    ┌─────❲ *ᴏᴡɴᴇʀ* ❳
+    ┊☞ ᴏᴡɴᴇʀ : ᴍʜᴅ.ᴛᴀ ™
+    ┊☞ wa.me/919288405103
+    ┊☞ʙᴏᴛ ɴᴀᴍᴇ : ᴍʀ-ᴛᴇᴄʜ_ʙᴏᴛ®
+    ┊☞︎︎︎sᴛᴀᴛᴜs:ᴡᴏʀᴋɪɴɢ ᴀs ᴘᴜʙʟɪᴄ
+    ┊☞ ᴠᴇʀꜱɪᴏɴ : ᴠ2
+    └──────────────----------𖤍
+    
+    
+        ║▌│█║▌│ █║▌│█│║
+          ©919288405103™"
+
+    
+
+    await message.client.sendMessage(
+
+        message.jid,(r_text[1]), MessageType.text);
+
     }));
-}
+
+        asena.addCommand({pattern: 'git', fromMe: false, deleteCommand: true, desc: GIT,}, (async (message, match) => {
+
+        var r_text = new Array ();
+
+    
+
+        r_text[1] = "ʜɪ......
+            
+            ┌─────❲ *MRTECH-BOT𖤍❳* 
+            ┊
+            └─────────────────✪---------𖤍
+               ───────╔╗───────╔╗─
+               ╔══╗╔╦╗║╚╗╔═╗╔═╗║╚╗
+               ║║║║║╔╝║╔╣║╩╣║═╣║║║
+               ╚╩╩╝╚╝─╚═╝╚═╝╚═╝╚╩╝
+               ───────────────────
+            
+            ┌─────❲ *ᴏᴡɴᴇʀ* ❳
+            ┊☞ ᴏᴡɴᴇʀ : ᴍʜᴅ.ᴛᴀ ™
+            ┊☞ wa.me/919288405103
+            ┊☞ʙᴏᴛ ɴᴀᴍᴇ : ᴍʀ-ᴛᴇᴄʜ_ʙᴏᴛ®
+            ┊☞︎︎︎sᴛᴀᴛᴜs:ᴡᴏʀᴋɪɴɢ ᴀs ᴘᴜʙʟɪᴄ
+            ┊☞ ᴠᴇʀꜱɪᴏɴ : ᴠ2
+            └──────────────----------𖤍
+            
+            
+                ║▌│█║▌│ █║▌│█│║
+                  ©919288405103™"
+
+    
+
+        await message.client.sendMessage(
+
+            message.jid,(r_text[1]), MessageType.text);
+
+    
+
+        }));    
+
+    }
