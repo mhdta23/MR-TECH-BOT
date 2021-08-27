@@ -29,40 +29,7 @@ Project created by <a href="https://github.com/mhdta23">MUHAMMED T.A</a> to make
 <a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-f7df1e.svg"</a>
 </p>
 
-<h3 align="center">Contact Me:</h3>
-<p align="center">
-<a href="https://instagram.com/ameer_.su_hail?utm_medium=copy_link" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="kyrie.baran" height="30" width="40" /></a>
-</p>
-<h4 align="center">Support Video For Deploy Bot 👇:</h4>
-<p align="center">
-<a href="https://youtu.be/_D4ZYuUSXjs" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/1200px-Logo_of_YouTube_%282015-2017%29.svg.png" height="45" width="90" /></a>
-</p>
-  
 
-<div align="center">
-<p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ameer-kallumthodi&show_icons=true&theme=nightowl" alt="ameer-kallumthodi" /></p>
-
-<p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ameer-kallumthodi&theme=nightowl" alt="ameer-kallumthodi" /></p>
-</details> </div>
-
-
-## 📢 Guide
-Click WA logo to Join Support Group 👇
-    <br>
-<br>
-  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/FsDjV2uRKce4wgMpAtYwyf)
-
-## 
-  <h3 align="center">📢 Support Group 2:</h3>
-<p align="center">
-Click Pikachu logo to Join Support Group 2👇
-    <br>
-<br>
-  <a href="https://chat.whatsapp.com/BLdaoLVnX6jFnkKHFjLbH6" target="blank"><img align="center" src="https://i.hizliresim.com/pce1372.png" alt="kyrie.baran" height="200" width="200" /></a>
-</p>
-    
-## Setup
-<div align="center">
 
   ### Simple Method
   
@@ -112,18 +79,4 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 ```
 
 ## Developers
-  <div align="center">
-    
-  [![ameer-kallumthodi](https://github.com/ameer-kallumthodi.png?size=100)](https://github.com/ameer-kallumthodi) |  [![Hisham-Muhammed](https://github.com/Hisham-Muhammed.png?size=100)](https://github.com/Hisham-Muhammed) | [![saidalisaid2](https://github.com/saidalisaid2.png?size=100)](https://github.com/saidalisaid2) 
-----|----|----
-[ameer-kallumthodi](https://github.com/ameer-kallumthodi)  | [Hisham-Muhammed](https://github.com/Hisham-Muhammed) | [saidalisaid2](https://github.com/saidalisaid2)
-Base, Bug Fixes, Modules | Modifiying  as   public | Bug Fixes, Modules
-  </div>
-    
-
-
-## License
-This project is protected by `GNU General Public Licence v3.0` license.
-
-### Disclaimer
-`WhatsApp` name, its variations and the logo are registered trademarks of Facebook. We have nothing to do with the registered trademark
+  
