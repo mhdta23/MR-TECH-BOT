@@ -23,9 +23,9 @@ Project created by <a href="https://github.com/mhdta23">MUHAMMED T.A</a> to make
     <img src="https://img.shields.io/github/repo-size/ameer-kallumthodi/pikachu?color=green&label=Repo%20total%20size&style=plastic">
 <p align="center">
 <a href="https://github.com/mhdta23/followers"><img title="Followers" src="https://img.shields.io/github/followers/mhdta23?color=f7df1e&style=flat-square"></a>
-<a href="https://github.com/ameer-kallumthodi/pikachu/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/ameer-kallumthodi/pikachu?color=f7df1e&style=flat-square"></a>
-<a href="https://github.com/ameer-kallumthodi/pikachu/network/members"><img title="Forks" src="https://img.shields.io/github/forks/mhdta23/mr-tech-bot?color=f7df1e&style=flat-square"></a>
-<a href="https://github.com/ameer-kallumthodi/pikachu/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/mhdta23/mr-tech-bot?label=Watchers&color=f7df1e&style=flat-square"></a>
+<a href="https://github.com/mhdta23/mr-tech-bot/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/ameer-kallumthodi/pikachu?color=f7df1e&style=flat-square"></a>
+<a href="https://github.com/mhdta23/mr-tech-bot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/mhdta23/mr-tech-bot?color=f7df1e&style=flat-square"></a>
+<a href="https://github.com/mhdta23/mr-tech-bot/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/mhdta23/mr-tech-bot?label=Watchers&color=f7df1e&style=flat-square"></a>
 <a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-f7df1e.svg"</a>
 </p>
 
