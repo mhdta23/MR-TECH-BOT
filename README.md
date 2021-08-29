@@ -33,7 +33,7 @@ Project created by <a href="https://github.com/mhdta23">MUHAMMED T.A</a> to make
 
   ### Simple Method
   
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@phaticusthiccy/WhatsAsena-QR)
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@MhdTa/Mrtechbotwhatsasenadup)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mhdta23/MR-TECH-BOT)
      </div>
