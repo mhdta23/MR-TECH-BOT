@@ -10,7 +10,8 @@ Asena.addCommand({ pattern: 'song', fromMe: false, dontAddCommandList: true }, (
   Min● - - - - - - -●Max\n";
   r_text[1] = "▄ ▄ █ ▄ █ ▄ █
 Min●- - - - - - -●Max";
-  r_text[2] = "Pikachu says i love you 😘";
+  r_text[2] = "▄ ▄ █ ▄ █ ▄ █
+Min●- - - - - - -●Max";
   r_text[3] = "▄ ▄ █ ▄ █ ▄ █
   Min● - - - - - - -●Max";
   r_text[4] = "▄ ▄ █ ▄ █ ▄ █
