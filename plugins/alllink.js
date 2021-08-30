@@ -44,21 +44,7 @@ var ldc = ''
 if (Config.LANG == 'AZ') ldc = '*Bağlantı Aşkarlandı!*'
 if (Config.LANG == 'TR') ldc = '*‎Link Tespit Edildi!*'
 if (Config.LANG == 'EN') ldc = '*Link Detected! mone ee link ivde allowed alla appo pinne engane , oke bye \n\n 🕊🕊*'
-if (Config.LANG == 'ML') ldc = '┌─────❲ *MRTECH-BOT𖤍❳* 
-┊➪ ᴍʀ-ᴛᴇᴄʜ ʙᴏᴛ
-┊➪ ᴡᴏʀᴋɪɴɢ ᴀs ᴘᴜʙʟɪᴄ
-└─────────────────✪---------𖤍
-    ╔═╗────────────
-    ║╦╝╔╦╗╔╦╗╔═╗╔╦╗
-    ║╩╗║╔╝║╔╝║╬║║╔╝
-    ╚═╝╚╝─╚╝─╚═╝╚╝─
-  ────────────────────
-  ⚠️ʟɪɴᴋ ᴅᴇᴛᴇᴄᴛᴇᴅ
-  
-  ⚠️ʟɪɴᴋ ɪs ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ
- ────────────────────
-    ║▌│█║▌│ █║▌│█│║
-     ©919288405103™'
+if (Config.LANG == 'ML') ldc = 'ʟɪɴᴋ ᴅᴇᴛᴇᴄᴛᴇᴅ! Gᴏ ᴏᴜᴛ!'
 if (Config.LANG == 'ID') ldc = '*Tautan Terdeteksi!*'
 if (Config.LANG == 'PT') ldc = '*Link Detectado!*'
 if (Config.LANG == 'RU') ldc = '*Ссылка обнаружена!*'
