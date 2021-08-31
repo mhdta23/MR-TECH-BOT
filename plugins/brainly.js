@@ -16,7 +16,7 @@ Asena.addCommand({ pattern: 'brainly ?(.*)', fromMe: false, desc: BRAINLY_DESC, 
         if (match[1] === '') return await message.client.sendMessage(message.jid, NEED_QUERY, MessageType.text);
 
         await axios
-          .get(`https://api.xteam.xyz/brainly?APIKEY=10c4105200edc0f0&soal=${Soal}`)
+          .get(`https://api.xteam.xyz/brainly?APIKEY=765816d4321dbe3b&soal=${Soal}`)
           .then(async (response) => {
             const {
               soal,
