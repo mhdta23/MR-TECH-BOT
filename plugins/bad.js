@@ -47,7 +47,7 @@ var ldc = ''
 if (Config.LANG == 'AZ') ldc = '*Bağlantı Aşkarlandı!*'
 if (Config.LANG == 'TR') ldc = '*‎Link Tespit Edildi!*'
 if (Config.LANG == 'EN') ldc = '*ഇത് ഞാനും ചെയ്യില്ലനീയും ചെയ്യില്ല* \n 😅 *arod parayan aar kelkaan* \n *edth purath aakiyathin shesham aan parayunne* 😅😅'
-if (Config.LANG == 'ML') ldc = '*ലിങ്ക് കണ്ടെത്തി!*'
+if (Config.LANG == 'ML') ldc = '* കടക്ക് പുറത്ത് 😡അലവലാതി 🥲!*'
 if (Config.LANG == 'ID') ldc = '*Tautan Terdeteksi!*'
 if (Config.LANG == 'PT') ldc = '*Link Detectado!*'
 if (Config.LANG == 'RU') ldc = '*Ссылка обнаружена!*'
@@ -65,7 +65,24 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
         let regex8 = new RegExp('umban')
         let regex9 = new RegExp('oombi')
         let regex10 = new RegExp('Myr')
-        if (regex1.test(message.message)) {
+let regex11 = new RegExp('fuck')
+let regex12 = new RegExp('tola')
+let regex13 = new RegExp('endi')
+let regex14 = new RegExp('kunna')
+let regex15 = new RegExp('kundi')
+let regex16 = new RegExp('pootti')
+let regex17 = new RegExp('nayi')
+let regex18 = new RegExp('Mire')
+let regex19 = new RegExp('patti')
+let regex20 = new RegExp('panni')
+let regex21 = new RegExp('💋')
+  let regex22 = new RegExp('🖕') 
+ let regex23 = new RegExp('👙')
+let regex24 = new RegExp('sex')
+let regex25 = new RegExp('xxx')
+let regex26 = new RegExp('shuddi')
+let regex27 = new RegExp('🩲')
+ if (regex1.test(message.message)) {
             var us = await checkUsAdmin(message)
             var im = await checkImAdmin(message)
             if (!im) return;
