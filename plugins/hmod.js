@@ -1,5 +1,5 @@
-/* Copyright (C) 2021 plk-dqz.
-Licensed under the  GPL-3.0 License;
+/* Copyright (C) 2021 മുഹമ്മദ്‌ TA🎲.
+Licensed under the  GPL-3.0 License(ആർക് വേണമെങ്കിലും എഡിറ്റ്‌ ചെയ്യാം 🔥😂);
 you may not use this file except in compliance with the License.
 WhatsAsenaDuplicated*/
 
