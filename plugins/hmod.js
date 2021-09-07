@@ -17,7 +17,7 @@ if (Config.WORKTYPE == 'private') {
 
 Asena.addCommand({pattern: 'modapp ?(.*)', fromMe: true, desc: 'get mod apk from happymod' , dontAddCommandList: true }, async (message, match) => {
 	if (match[1] === '') return await message.reply(Lang.NEED_APPNAME);
-	const url = `https://api.zeks.xyz/api/happymod?apikey=&q=${match[1]}&apikey=1hroZ3ju94h0PBjCNKsfhYaSuLs`;
+	const url = `https://api.zeks.xyz/api/happymod?apikey=&q=${match[1]}&apikey=S9OEvnWh6GKSXkIJcwneAuXjCEz`;
 	try {
 		const response = await got(url);
 		const json = JSON.parse(response.body);
@@ -36,7 +36,7 @@ else if (Config.WORKTYPE == 'public') {
 
 Asena.addCommand({pattern: 'modapp ?(.*)', fromMe: false, desc: 'get mod apk from happymod' , dontAddCommandList: true }, async (message, match) => {
 	if (match[1] === '') return await message.reply(Lang.NEED_APPNAME);
-	const url = `https://api.zeks.xyz/api/happymod?apikey=&q=${match[1]}&apikey=1hroZ3ju94h0PBjCNKsfhYaSuLs`;
+	const url = `https://api.zeks.xyz/api/happymod?apikey=&q=${match[1]}&apikey=S9OEvnWh6GKSXkIJcwneAuXjCEz`;
 	try {
 		const response = await got(url);
 		const json = JSON.parse(response.body);
